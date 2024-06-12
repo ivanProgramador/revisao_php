@@ -33,8 +33,17 @@
   -> supertag
  <?    ?> -> short open tag(para ela funionar temos que fazer a configuração no php.ini)
  <%    %> -> ASP tag (antigamente funcionava se fosse configurada na versão 5.6 más as versões atuais não usam mais)
- /*<?= $echo("teste"); ?> */-> Essa serve para exibições simples de valore de variaveis 
+ /*<?= $echo("teste"); ?> */-> Essa serve para exibições simples de valores de variaveis 
 
+ quando a short open tag não funcionar existe um arquivo php.ini que gerencia todas a configurações do php 
+ basta procurar pelo nome short_open_tag e colocar on -> usar o ctrl+f para buscar mais rapido.
+ 
+ DICA: 
+       não é conselhavel usar as short open tags em porjeto que vão subir para o servidor do cliente ou de um empresa,
+       porque não se sabe se essa configuração está, lá tambem e isso pode quebrar o projeto, então o aconselhavel é 
+       usar o padrão   
+ 
+ 
  ATENÇÃO
  Pode acontecer no sistema MAC da versão php distribuida seja a versão de
  produção e não a versão de desenvolvimento então algumas coinfigurações podem ser necesssárias
