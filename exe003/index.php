@@ -39,7 +39,7 @@
  basta procurar pelo nome short_open_tag e colocar on -> usar o ctrl+f para buscar mais rapido.
  
  DICA: 
-       não é conselhavel usar as short open tags em porjeto que vão subir para o servidor do cliente ou de um empresa,
+       não é conselhavel usar as short open tags em projeto que vão subir para o servidor do cliente ou de um empresa,
        porque não se sabe se essa configuração está, lá tambem e isso pode quebrar o projeto, então o aconselhavel é 
        usar o padrão   
  
