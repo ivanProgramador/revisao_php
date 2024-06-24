@@ -8,8 +8,16 @@
    tag curta         <? código aqui    ?> não existe mais no ini da versão 8.2
    ASP tag           <% codigo aqui    %> parou de funcionar na versão 7
 
- 
- */
+   comentários em php 
+
+   // comentário de uma linha
+   
+   /*
+      comentário para varias linhas 
+   */
+
+   # comentário para uma linha -> comentários desse tipo podem ser encontrados tanto em scripts php quanto em shell  
+
 
 
 ?>
