@@ -5,7 +5,7 @@
   
    tag padrão        <php? codigo aqui ?>   
    tag de impressão  <?= codigo aqui   ?> funciona 
-   tag curta         <? código aqui    ?> funciona  mas precisa ser habilitada no ini
+   tag curta         <? código aqui    ?> não existe mais no ini da versão 8.2
    ASP tag           <% codigo aqui    %> parou de funcionar na versão 7
 
  

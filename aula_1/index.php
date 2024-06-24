@@ -8,7 +8,10 @@
 <body>
 
   <?php echo'Usando a tag padrão'; ?><br>
-  <?= 'usando a tag de impressão' ?>
+  <?= 'usando a tag de impressão' ?><br>
+  
+
+
     
 </body>
 </html>
