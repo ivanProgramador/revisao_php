@@ -11,7 +11,7 @@
     // mecanica de clacula de compra usando condicionais 
 
     $usuario_possui_cartao_loja = true;
-    $valor_compra = 225;
+    $valor_compra = 99;
     $valor_frete = 50;
     $recebeu_desconto_frete = false;
 
