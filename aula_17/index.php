@@ -20,7 +20,7 @@
         echo'Bem vindo ao curso de php';
     }
 
-    //função com retorno executa o porcesso e retorna o resultado dele 
+    //função com retorno executa o processo e retorna o resultado dele 
     //a função abaixo recebe os parámetros faz um calculo entre eles e retona o resultado 
 
     function calcularAreDeTerreno($largura,$comprimento){
@@ -29,6 +29,23 @@
 
         return $area;
     }
+
+    /*
+     Usando as funções 
+    */
+    //exibir boas vindas 
+
+    exibirBoasVindas(); // essa vai mostrar a frase
+    
+    //ja a funçao calcularAreDeTerreno para exbir alguma coisa ela precisa de parametros 
+    // que no caso são a largura e comprimmento de uma terrreno para poder calcular  a area 
+    //nesse caso eu atribui o retono dela a uma varivel 
+
+   $resultado = calcularAreDeTerreno(30,20);
+   
+   // exibindo o retorno dela 
+
+   echo $resultado; 
 
 
   ?>    
