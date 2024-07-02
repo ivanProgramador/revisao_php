@@ -47,6 +47,75 @@
         echo date("d/m/Y h:i ");
   */
 
+   /*
+    existem meios de calcular a distancia entre dias em relação a data inicial e data final em php 
+    como se trata de um processo muito longo eu vou fazer um função para executar iossso de forma mais rapida 
+   */
+
+   // para calcular datas elas sempre devem estar no formato americano ano/mes/dia
+
+   $data_inicial = '2024-07-01';
+   $data_final = '2024-07-10';
+   
+   //timestamp
+   //data do começo da era unix 01/01/1970
+   /*
+     primeiro a data inicial deve ser convertida em segundos 
+     usando a função strtotime() ela vai calcular quantos segundos se passaram do dia 
+     01/01/1970 até a data inicial 2024-07-01 
+     
+     agora o time_inicial possui o valor da data inicial em segundos que seria a diferença entre 
+     01/01/1970 até a data inicial 2024-07-01 em segundos qoue torna ela um numero que pode ser calculado
+     agora a proxima etapa e fazer isso com a data final.
+
+      $time_inicial = strtotime($data_inicial);
+      $time_final = strtotime($data_final);
+
+    agora que eu tenho a a representação da data inicial e da data final em segundos 
+    agora eu tenho que calçcular a diferença de valor entrea as duas para calcular eu tenho que 
+    subtrair o valor da data inicial data data final porque a diferença entre elas e oque eu quero 
+    saber e tem que ser nessa ordem porque se não vai ter um valor negativo.
+    
+        $time_inicial = strtotime($data_inicial);
+        $time_final = strtotime($data_final);
+        $diferenca_time = $time_final - $time_inicial;
+    
+    Agora eu tenho que dividir o valor da diferença pela quantidade de segundos existentes em um dia
+
+        $segundos_exitentes_em_um_dia = 24 * 60 * 60;
+      
+    Agora e so fazer a divisão para saber quantos dias cabem dentro dos sefgundos de diferença 
+
+        $diferenca_de_dias_entre_as_datas = $diferenca_time / $segundos_exitentes_em_um_dia;
+
+    mostrando na tela a quantidade de dias 
+
+       echo'A diferença de dias entrea a data inicial e a data final é : '. $diferenca_de_dias_entre_as_datas;
+
+    
+
+   */
+
+     $time_inicial = strtotime($data_inicial);
+     $time_final = strtotime($data_final);
+
+     $diferenca_time = $time_final - $time_inicial;
+
+     $segundos_exitentes_em_um_dia = 24 * 60 * 60;
+
+     $diferenca_de_dias_entre_as_datas = $diferenca_time / $segundos_exitentes_em_um_dia;
+     
+     echo'A diferença de dias entrea a data inicial e a data final é : '. $diferenca_de_dias_entre_as_datas;
+
+    
+
+
+
+
+ 
+
+
+
 
   
  
