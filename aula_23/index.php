@@ -18,7 +18,7 @@
      1 - oque ele vai pesquisar 
      2 - o array onde ele vai pesquisar 
     ele retona 'true' se ele encontrar e 'false' caso ele não encontre 
-    a abusca dele e case sensitive 
+    a busca dele e case sensitive 
     
     usando o metodo array_search('Abacaxi',$lista_frutas);
     esse metodo recebe 2 parametros 
