@@ -62,6 +62,38 @@
      echo"final do Loop <br>";
 
 
+     controlando o loop com uma condicional 
+
+     No exemplo abaixo eu estabeleço qua quando o valor da variavel for 2 ou 6 
+     o loop sera interrompido e depois vai continuar isso vai fazer com que os 
+     nummeros 2 e 6 não sejam mostram na tela, nesse caso para para o loop e voltar 
+     a executar eu tenho que usar instrução continue.
+
+         $numero = 1;
+
+     echo"Inicio do Loop <br>";
+
+     while($numero < 10){
+
+        
+         $numero += 1;
+
+         if($numero == 2 || $numero == 6){
+
+            continue;
+         }
+
+         echo $numero.'<br>';
+     }
+     
+     echo"final do Loop <br>";
+
+
+
+
+
+
+
      
      
      
@@ -71,19 +103,27 @@
 
      */
 
-  
      $numero = 1;
 
      echo"Inicio do Loop <br>";
 
      while($numero < 10){
 
+        
+         $numero += 1;
+
+         if($numero == 2 || $numero == 6){
+
+            continue;
+         }
+
          echo $numero.'<br>';
-
-         $numero ++;
      }
-
+     
      echo"final do Loop <br>";
+
+  
+ 
   
   ?>
     
